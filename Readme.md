@@ -24,7 +24,10 @@ pip install pandas numpy matplotlib scikit-learn
 
 
 ## How to use?
-python cefr_evaluation.py predictions.csv groundtruth.csv \
+
+python evaluate.py
+
+predictions.csv groundtruth.csv \
 
     --pred_col score \
 
@@ -38,7 +41,9 @@ I will grant your download access.
 
 If you don't understand how those files should organise. I offer some demo files for your understanding.
 
-python cefr_evaluation.py predictions.csv groundtruth.csv \
+python evaluate.py 
+
+predictions.csv groundtruth.csv \
 
     --pred_col score \
 
