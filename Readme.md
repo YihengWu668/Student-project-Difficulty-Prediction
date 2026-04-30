@@ -16,7 +16,7 @@ MAE (Mean Absolute Error) -
 
 R² (R-squared) - 
 
-Box plot
+Box plot ![Box plot](./demo_box_plot.png)
 
 ## Requirement
 
