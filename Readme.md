@@ -42,4 +42,7 @@ python cefr_evaluation.py predictions.csv groundtruth.csv \
 
     --pred_col score \
 
-    --gt_col prediction
+    --gt_col score
+
+
+If you still have trouble. Contact me via: yiheng.wu@helsinki.fi
