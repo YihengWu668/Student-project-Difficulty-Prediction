@@ -35,10 +35,6 @@ predictions.csv groundtruth.csv \
 
 Your result column in your predictions.csv file
 
-Ground truth column in groundtruth.csv file.  (Download in https://docs.google.com/spreadsheets/d/1GbTP37V_XLLZ-Nopbc0maRiiPOr6ButYsuYw_Z2pw2A/edit?usp=sharing )
-
-I will grant your download access.
-
 If you don't understand how those files should organise. I offer some demo files for your understanding.
 
 python evaluate.py 
