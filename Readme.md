@@ -23,27 +23,23 @@ Box plot ![Box plot](./demo_box_plot.png)
 pip install pandas numpy matplotlib scikit-learn
 
 
+
 ## How to use?
 
-python evaluate.py
-
-predictions.csv groundtruth.csv \
-
+```bash
+python evaluate.py predictions.csv groundtruth.csv \
     --pred_col score \
-
     --gt_col label
+```
 
-Your result column in your predictions.csv file
+`score` is your result column name in your `predictions.csv` file.
 
-If you don't understand how those files should organise. I offer some demo files for your understanding.
+If you don't understand how those files should be organized, I offer some demo files for your understanding.
 
-python evaluate.py 
-
-predictions.csv groundtruth.csv \
-
+```bash
+python evaluate.py predictions.csv groundtruth.csv \
     --pred_col score \
-
     --gt_col score
+```
 
-
-If you still have trouble. Contact me via: yiheng.wu@helsinki.fi
+If you still have trouble, contact me via: [yiheng.wu@helsinki.fi](mailto:yiheng.wu@helsinki.fi)
